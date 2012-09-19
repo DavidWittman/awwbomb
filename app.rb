@@ -25,7 +25,7 @@ private
 def all_awws
   key = ENV['CF_CONTAINER']
 
-  connect_to_memcached.fetch key, do
+  connect_to_memcached.fetch key do
     container = CloudFiles::Connection.new(:username => ENV['CF_USERNAME'],
                                            :api_key  => ENV['CF_APIKEY'])
                                       .container(ENV['CF_CONTAINER'])
