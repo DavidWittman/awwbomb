@@ -17,7 +17,7 @@ get '/bomb/:count' do |count|
 end
 
 get '/random' do
-  all_awws.sample.public_url
+  all_awws.sample
 end
 
 private
