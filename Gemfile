@@ -1,8 +1,9 @@
 source 'http://rubygems.org'
 
-  gem 'passenger'
   gem 'sinatra'
   gem 'dalli'
   gem 'cloudfiles'
   gem 'json'
-  gem 'thin'
+
+  gem 'passenger', :group => :passenger
+  gem 'thin', :group => :thin
