@@ -1,6 +1,12 @@
 # awwbomb
 
-A Sinatra app to display a random image scraped from [r/aww](http://reddit.com/r/aww). Written to be deployed on [Heroku](https://www.heroku.com) and originally inspired by Alex Godin's [corgibomb](https://github.com/alexgodin/corgibomb).
+A Sinatra app to display random images from a [Rackspace Cloud Files](http://www.rackspace.com/cloud/files/) container. The [awwbomb](http://awwbomb.herokuapp.com) itself scrapes images from [r/aww](http://reddit.com/r/aww). Originally inspired by Alex Godin's [corgibomb](https://github.com/alexgodin/corgibomb).
+
+## Deployment
+
+For easy deployment of awwbomb, use either of the following methods:
+* Using Chef, with the [awwbomb-cookbook](https://github.com/DavidWittman/awwbomb-cookbook)
+* On [Heroku](https://www.heroku.com)
 
 ## Configuration
 
